@@ -4,7 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f43cbfbc-e29d-4ed2-b611-8645dc691616" name="Default Changelist" comment="last version" />
+    <list default="true" id="f43cbfbc-e29d-4ed2-b611-8645dc691616" name="Default Changelist" comment="last version">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/frontend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/BookingSection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/mainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/mainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkinguk/parkinguk/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinguk/parkinguk/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkinguk/parkinguk/controller/ParkingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkinguk/parkinguk/controller/ReceiptController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkinguk/parkinguk/dto/ReceiptResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkinguk/parkinguk/entity/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinguk/parkinguk/entity/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkinguk/parkinguk/entity/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinguk/parkinguk/entity/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkinguk/parkinguk/entity/SlotDate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkinguk/parkinguk/exceptions/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinguk/parkinguk/exceptions/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkinguk/parkinguk/repository/LogInRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinguk/parkinguk/repository/LogInRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkinguk/parkinguk/service/booking/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinguk/parkinguk/service/booking/BookingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkinguk/parkinguk/service/booking/impl/BookingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinguk/parkinguk/service/booking/impl/BookingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/parkinguk/parkinguk/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/parkinguk/parkinguk/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/parkinguk/parkinguk/controller/ParkingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/parkinguk/parkinguk/controller/ReceiptController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/parkinguk/parkinguk/dto/ReceiptResponse$ReceiptResponseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/parkinguk/parkinguk/dto/ReceiptResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/parkinguk/parkinguk/entity/Booking$BookingBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/parkinguk/parkinguk/entity/Booking$BookingBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/parkinguk/parkinguk/entity/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/parkinguk/parkinguk/entity/Booking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/parkinguk/parkinguk/entity/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/parkinguk/parkinguk/entity/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/parkinguk/parkinguk/entity/SlotDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/parkinguk/parkinguk/exceptions/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/parkinguk/parkinguk/exceptions/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/parkinguk/parkinguk/repository/LogInRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/parkinguk/parkinguk/repository/LogInRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/parkinguk/parkinguk/service/booking/BookingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/parkinguk/parkinguk/service/booking/BookingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/parkinguk/parkinguk/service/booking/impl/BookingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/parkinguk/parkinguk/service/booking/impl/BookingServiceImpl.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +55,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frontend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -38,20 +74,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/niko2/Desktop/OnlineShop",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\Documents\My Games\parkingUk\frontend\src\component" />
@@ -192,32 +224,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="last version" />
     <option name="LAST_COMMIT_MESSAGE" value="last version" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/parkinguk/parkinguk/controller/BookingController.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/parkinguk/parkinguk/controller/BookingController.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/parkinguk/parkinguk/service/booking/impl/BookingServiceImpl.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/parkinguk/parkinguk/service/booking/impl/BookingServiceImpl.java</url>
-          <line>88</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/parkinguk$ParkingukApplication.ic" NAME="ParkingukApplication Coverage Results" MODIFIED="1648931640940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

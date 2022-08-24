@@ -1,7 +1,6 @@
 package com.parkinguk.parkinguk.service.booking.impl;
 
 import com.parkinguk.parkinguk.dto.BookingRequest;
-import com.parkinguk.parkinguk.dto.ReceiptResponse;
 import com.parkinguk.parkinguk.entity.Booking;
 import com.parkinguk.parkinguk.entity.Customer;
 import com.parkinguk.parkinguk.entity.Login;
@@ -15,7 +14,6 @@ import com.parkinguk.parkinguk.service.booking.BookingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.util.List;
@@ -68,14 +66,6 @@ public class BookingServiceImpl implements BookingService {
 
     }
 
-    public ReceiptResponse getReceipt(Long customerId) throws Exception {
-
-        Optional<Customer> customer = customerRepository.findById(customerId);
-        customer.orElseThrow(()-> new Exception("Customer not present"));
-        Optional<Booking> booking = bookingRepository.findByCustomer(customer.get());
-        booking.orElseThrow(()-> new Exception("Booking not present"));
-        return ReceiptResponse.builder().amount(booking.get().getAmount()).bookingDate(booking.get().getBookingDate()).bookingToDate(booking.get().getBookingToDate()).firstName(booking.get().getCustomer().getFirstName()).vehicleRegistrationNumber(booking.get().getCustomer().getVehicleRegistrationNumber()).build();
-    }
 
     public Booking getBooking(String email) throws Exception {
 
