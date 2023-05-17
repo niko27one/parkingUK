@@ -1,21 +1,15 @@
 package com.parkinguk.parkinguk.controller;
-import antlr.StringUtils;
-import com.hazelcast.core.Hazelcast;
 import com.hazelcast.core.HazelcastInstance;
-import com.hazelcast.web.HazelcastHttpSession;
 import com.parkinguk.parkinguk.dto.*;
 import com.parkinguk.parkinguk.service.customer.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.session.hazelcast.Hazelcast4IndexedSessionRepository;
 import org.springframework.web.bind.annotation.*;
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import java.util.HashMap;
+
 
 //Spring web annotations
 

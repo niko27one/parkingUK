@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   mysqldb:
-    container_name: mysql
+    container_name: mysql2
     image: mysql/mysql-server:latest
     env_file:
       - .env

@@ -10,12 +10,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/frontend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/BookingSection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/mainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/mainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/parkinguk/parkinguk/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinguk/parkinguk/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/parkinguk/parkinguk/controller/ParkingController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/parkinguk/parkinguk/controller/ReceiptController.java" beforeDir="false" />
@@ -65,6 +60,29 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="parkinguk/invalid/JPA" />
+      <facet id="parkinguk/invalid/Spring" />
+      <facet id="parkinguk/invalid/Web" />
+    </ignored-facets>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -78,19 +96,20 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/niko2/Desktop/OnlineShop",
+    "last_opened_file_path": "C:/Users/niko2/Desktop/Java/parkingUK",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\niko2\Desktop\parkingUK\frontend" />
       <recent name="C:\Users\user\Documents\My Games\parkingUk\frontend\src\component" />
       <recent name="C:\Users\user\Documents\My Games\parkingUk\frontend\src\images" />
       <recent name="C:\Users\user\Documents\My Games\parkingUk\src\main\java\com\parkinguk\parkinguk\service\booking" />
       <recent name="C:\Users\user\Documents\My Games\parkingUk\src\main\java\com\parkinguk\parkinguk\service\customer" />
-      <recent name="C:\Users\user\Documents\My Games\parkingUk" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\Documents\My Games\parkingUk\frontend\src\component" />
