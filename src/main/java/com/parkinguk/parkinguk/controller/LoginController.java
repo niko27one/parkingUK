@@ -1,27 +1,20 @@
 package com.parkinguk.parkinguk.controller;
-import antlr.StringUtils;
-import com.hazelcast.core.Hazelcast;
 import com.hazelcast.core.HazelcastInstance;
-import com.hazelcast.web.HazelcastHttpSession;
 import com.parkinguk.parkinguk.dto.*;
 import com.parkinguk.parkinguk.service.customer.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.session.hazelcast.Hazelcast4IndexedSessionRepository;
 import org.springframework.web.bind.annotation.*;
-
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import java.util.HashMap;
+
 
 //Spring web annotations
 
 @RestController
-@RequestMapping( "/parking/v1")
+@RequestMapping( "/parking/v1")//URL
 public class LoginController {
     private static final String principalIndexName = Hazelcast4IndexedSessionRepository.PRINCIPAL_NAME_INDEX_NAME;
 
@@ -47,13 +40,13 @@ public class LoginController {
 
     }
 
-    @PostMapping("/information")
+    @PostMapping("/information")//URL
     public ResponseEntity<Information> information(@RequestBody InformationReq informationReq){
         Information information = customerService.information(informationReq.getEmail());
         return new ResponseEntity<>(information,HttpStatus.OK);
     }
 
-    @GetMapping("/validateSession")
+    @GetMapping("/validateSession")//URL
     public ResponseEntity<ValidateSession> validate(HttpServletRequest req){
         ValidateSession validateSession = new ValidateSession();
         HttpSession session = req.getSession(false);
@@ -64,14 +57,14 @@ public class LoginController {
         return new ResponseEntity<>(validateSession,HttpStatus.OK);
     }
 
-    @PostMapping("/invalidateSession")
+    @PostMapping("/invalidateSession")//URL
     public ResponseEntity<Void> invalidateSession(HttpServletRequest req){
         HttpSession session = req.getSession(false);
         session.invalidate();
         return new ResponseEntity<>(HttpStatus.OK);
     }
 
-    @PostMapping("/register/customer")
+    @PostMapping("/register/customer")//URL
     public ResponseEntity<String> register(@RequestBody RegisterRequest registerRequest , HttpServletRequest request) throws Exception {
         RegisterResponse registerResponse = new RegisterResponse();
         if (registerRequest.getFirstName()== null || registerRequest.getFirstName().isEmpty() || registerRequest.getDob() == null || registerRequest.getVehicleRegistrationNumber() == null || registerRequest.getVehicleRegistrationNumber().isEmpty() || registerRequest.getEmail() == null || registerRequest.getEmail().isEmpty() || registerRequest.getPassword() == null || registerRequest.getPassword().isEmpty() || registerRequest.getLastName() == null || registerRequest.getLastName().isEmpty() ){
@@ -89,7 +82,7 @@ public class LoginController {
         return new ResponseEntity<>(registerResponse.getMessage(), HttpStatus.CREATED);
     }
 
-    @PostMapping(value = "login/customer" )
+    @PostMapping(value = "login/customer" )//URL
     public ResponseEntity<String> login(@RequestBody LoginRequest loginRequest, HttpServletRequest request) throws Exception {
         LoginResponse loginResponse = new LoginResponse();
         customerService.logIn(loginRequest);

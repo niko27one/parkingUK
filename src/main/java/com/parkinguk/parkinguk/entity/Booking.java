@@ -1,10 +1,7 @@
 package com.parkinguk.parkinguk.entity;
 import lombok.*;
-
 import javax.persistence.*;
 import java.time.LocalDateTime;
-
-
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
